@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QUIZ APP </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="script.js"></script>
+</head>
+<body>
+	<h1 id="name">QUIZ PAGE</h1>
+<form id="quiz" name="QUIZ">
+	<p>What is the capital of FCT?</p>
+	<input id="textbox1" type="text" name="question1">
+
+	<p>What is the capital of Ondo state?</p>
+	<input type="radio" id="radio" name="question2" value="Akure"> Akure<br>
+	<input type="radio" id="radio" name="question2" value="Owo"> Owo<br>
+
+	<p>Iodine requires what seperating technique?</p>
+	<input type="radio" id="radio" name="question3" value="Sublimation"> Sublimation<br>
+	<input type="radio" id="radio" name="question3" value="Distilation"> Distilation<br>
+
+	<p>What is the fractional value of PI?</p>
+	<input type="radio" id="radio" name="question4" value="22/5"> 22/5<br>
+	<input type="radio" id="radio" name="question4" value="22/7"> 22/7<br>
+
+	<p>What year did Nigeria became a repbulic?</p>
+	<input type="radio" id="radio" name="question5" value="1960"> 1960<br>
+	<input type="radio" id="radio" name="question5" value="1963"> 1963<br>
+
+	<p>First generation of computer was based on what technology?</p>
+	<input id="textbox" type="text" name="question6"><br><br>
+
+	<input type="button" id="button" value="Click when done" onclick="validate();">
+
+</form>
+
+<div id= "when_done">
+<!--<p id= "remark"></p>-->
+<p id= "number_correct"></p>
+</div>
+
+</body>
+</html>
